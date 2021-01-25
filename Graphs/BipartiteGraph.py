@@ -23,3 +23,16 @@ while pending:
         # if that nbr is  already present in the set from which the parent came
         # then its a bad candidate for BP graph hence such graph is not BP
 return True
+
+#         dic={0:{0},1:set()}
+#         pending=[0]
+#         while pending:
+#             cur=pending.pop()
+#             curset=0 if cur in dic[0] else 1
+#             for v in graph[cur]:
+#                 if v not in dic[0] and v not in dic[1]:
+#                     pending.append(v)
+#                     dic[1-curset].add(v)
+#                 elif v in dic[curset]:
+#                     return False
+#         return True
