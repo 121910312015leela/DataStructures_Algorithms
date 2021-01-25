@@ -12,6 +12,8 @@ Both algorithms take O(V + E) time and O(V + E) space, where V = # of vertices a
 but it's the same big O time complexity.
 
 Kahn's Algorithm
+
+https://www.youtube.com/watch?v=cIBFEhD77b4
 '''
 
 from collections import defaultdict, deque
