@@ -1,3 +1,4 @@
+# my editorial https://binarysearch.com/problems/Edges-that-Disconnect-the-Graph/editorials/3980208 
  def solve(self, GG):
         n = len(GG)
         graph = defaultdict(list)
